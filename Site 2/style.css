@@ -40,10 +40,37 @@ nav a:hover{
     color: brown;
 }
 
-
 .produtos {
-    position: relative;
-    display: inline-block;
-    border: 2px solid black;
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
 
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos p {
+    padding: 10px 0;
+   
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.0%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.preço {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 18px;
 }
