@@ -70,7 +70,18 @@ nav a:hover{
 
 
 .produtos li:hover {
+    border-color: brown;
+    color: brown;
+}
+
+
+.produtos li:active {
     color: aqua;
+    border-color: aqua;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .preço {
@@ -80,4 +91,12 @@ nav a:hover{
 
 .desc {
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding: 40px 0;
+    color: aliceblue;
+    font-weight: bold;
 }
