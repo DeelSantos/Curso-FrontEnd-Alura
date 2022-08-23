@@ -9,14 +9,21 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
 
         }
+
+        
 
         .corpo {
             background-color: #444444;
             padding: 8px;
             width: 100vw;
             height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            
         }
 
         .cabecalho {
@@ -25,6 +32,9 @@
             min-width: 50px;
             min-height: 50px;
             margin: 8px;
+            grid-column: span 4;
+            
+            
         }
 
         .lateral {
@@ -33,8 +43,9 @@
             min-width: 50px;
             min-height: 50px;
             margin: 8px;
+            grid-row: span 3;
+            
         }
-
 
         .meio {
             background-color: #2aa6cc;
@@ -42,6 +53,9 @@
             min-width: 50px;
             min-height: 50px;
             margin: 8px;
+            grid-row: span 3;
+            grid-column: span 2;
+            
         }
 
         .direita-cima {
@@ -50,6 +64,8 @@
             min-width: 50px;
             min-height: 50px;
             margin: 8px;
+            grid-column: span 1;
+            
         }
 
         .direita-baixo {
@@ -58,14 +74,18 @@
             min-width: 50px;
             min-height: 50px;
             margin: 8px;
+            grid-row: span 2;
+            
         }
     </style>
 </head>
 <body class="corpo">
-    <header class="cabecalho"></header>
-    <nav class="lateral"></nav>
-    <section class="meio"></section>
-    <section class="direita-cima"></section>
-    <section class="direita-baixo"></section>
+    
+        <header class="cabecalho"></header>
+        <nav class="lateral"></nav>
+        <section class="meio"></section>
+        <section class="direita-cima"></section>
+        <section class="direita-baixo"></section>
+    
 </body>
 </html>
