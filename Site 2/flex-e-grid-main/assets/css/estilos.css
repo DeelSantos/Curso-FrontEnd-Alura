@@ -43,6 +43,7 @@ body {
     
     position: absolute;
     left: -100vw;
+    transition: 1s;
 }
 
 .menu-lateral--ativo {
