@@ -1,9 +1,16 @@
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
 }
 
-.botao-redes {
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.abotao-redes {
     background-color: #22D4FD;
     padding: 10px;
     border-radius: 5px;
