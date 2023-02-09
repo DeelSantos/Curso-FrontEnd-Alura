@@ -33,7 +33,7 @@ body {
 .cabecalho__menu__link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 600;
     color: var(--cor-terciaria);
 }
@@ -48,7 +48,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--font-primaria);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .apresentacao__links__botao-redes {
@@ -63,7 +63,7 @@ body {
     border-radius: 6px;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 0.95rem;
     font-family: var(--font-secundaria);
     font-weight: 600;
 }
@@ -76,19 +76,19 @@ body {
 }
 
 .container__conteudo {
-    width: 615px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
 .container__conteudo__titulo {
-    font-size: 30px;
+    font-size: 1.9rem;
     font-family: var(--font-primaria);
 }
 
 .container__conteudo__texto {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: var(--font-secundaria);
 }
 
@@ -109,6 +109,9 @@ body {
     justify-content: space-between;
 }
 
+.container__imagem {
+    width: 40%;
+}
 
 .rodape {
     color: var(--cor-primaria);
@@ -116,6 +119,7 @@ body {
     padding: 20px;
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
+
