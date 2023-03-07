@@ -1,1 +1,2 @@
 <h1 align="center"> Projeto Sobre Mim</h1>
+<p> Esse projeto foi desenvolvido juntamente com os orientadores da alura para entender mais como funciona html, css e responsividade dentro do desenvolvimento de páginas Web.</p>
